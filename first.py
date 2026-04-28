@@ -24,3 +24,9 @@ numberString = "The number is "
 # to fix this we can convert the number to a string
 numberAndString = numberString + str(number)
 print(numberAndString)
+
+#f-strings
+name = "Javid"
+age = 25    
+greeting = f"My name is {name} and I am {age} years old."
+print(greeting)
