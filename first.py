@@ -6,3 +6,7 @@ for i in my_range:{
 }
 my_list = ["Javid","Ali", "Huseyn","Muzafar","Khanwali"]
 print(my_list)
+
+# this is a comment
+day = "Today's day is Monday"
+print(day)
