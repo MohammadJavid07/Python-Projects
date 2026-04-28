@@ -30,3 +30,12 @@ name = "Javid"
 age = 25    
 greeting = f"My name is {name} and I am {age} years old."
 print(greeting)
+#string slicing
+fullName = "Mohammad Javid Miakhil"
+# print(fullName[0]) # M
+# print(fullName[1:4]) # oha
+# print(fullName[:8]) # Mohammad
+# print(fullName[9:]) # Javid Miakhil
+# print(fullName[9:14]) # Javid
+# print(fullName[15:20]) #  Miakhil
+print(fullName[0:21:2]) # Mhma ai iki
