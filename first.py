@@ -185,3 +185,4 @@ def apply_discount(price, discount):
     #calculate the discounted price
     discounted_price = price - (price * discount / 100)
     return discounted_price
+
