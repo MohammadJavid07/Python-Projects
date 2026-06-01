@@ -37,3 +37,31 @@ print(employee)
 #to insert an element at a specific index
 employee.insert(2, "Senior Web Developer")
 print(employee)
+
+#to pop an element from a list
+employee.pop(3)
+print(employee)
+
+#to clear all elements from a list
+employee.clear()
+print(employee)
+
+#Now the employee list is empty, we can add new elements to it
+employee.append("Alice")
+employee.append("Ali")
+employee.append("Bob")
+employee.append("Charlie")
+employee.append("David")
+employee.append("Eve")
+print(employee)
+
+#to sort a list in ascending order
+employee.sort()
+
+#to sort a list in descending order
+employee.sort(reverse=True)
+print(employee)
+
+#to reverse the order of a list
+employee.reverse()
+print(employee)
