@@ -1,4 +1,4 @@
-odd_numbers = (1, 3, 5, 7, 9, 11, 13, 15, 17, 19)
+odd_numbers = (1, 3, 5, 7, 9, 11,3, 13, 15, 17, 19,11,13,21,23,15,25,27,29,31,33,35,37,39)
 #odd_numbers[0] = 2 # This will raise a TypeError because tuples are immutable
 
 #we can also create a tuple using the tuple() constructor
@@ -29,3 +29,19 @@ temp_list = list(odd_numbers)
 temp_list.remove(1) # remove the first element
 odd_numbers = tuple(temp_list) # convert back to a tuple
 print(odd_numbers) # (3, 5, 7, 9, 11, 13, 15, 17, 19)
+
+#to check the length of a tuple
+print(len(odd_numbers)) # 9
+
+#to determine the index of an element in a tuple
+print(odd_numbers.index(9)) # 3
+
+#to determine the index of an element with starting position
+print(odd_numbers.index(9,6,13))
+#to count the number of occurrences of an element in a tuple
+print(odd_numbers.count(3)) # 1
+print(odd_numbers.count(2)) # 0
+
+#to sort a tuple
+odd_numbers.sort()
+print(odd_numbers)
