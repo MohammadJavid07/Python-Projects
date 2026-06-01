@@ -24,4 +24,16 @@ print(employee[5])
 moreTechnologies = ["Django", "React"]
 employee.extend(moreTechnologies)
 print(employee)
-    
+#to remove an element from a list
+employee[6].remove("Python")
+employee[6].remove("JavaScript")
+employee[6].remove("HTML")
+employee[6].remove("CSS")
+del employee[6]
+employee.remove("Django")
+employee.remove("React")
+print(employee)
+
+#to insert an element at a specific index
+employee.insert(2, "Senior Web Developer")
+print(employee)
