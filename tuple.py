@@ -43,5 +43,9 @@ print(odd_numbers.count(3)) # 1
 print(odd_numbers.count(2)) # 0
 
 #to sort a tuple
-odd_numbers.sort()
+sorted(odd_numbers)
 print(odd_numbers)
+
+#to reverse a tuple using sorted() method
+sorted(even_numbers, reverse=True)
+print(even_numbers)
